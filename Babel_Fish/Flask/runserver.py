@@ -1,5 +1,5 @@
 """
-This script runs the Flask application using a development server.
+This script runs the Flask application
 """
 
 from os import environ
