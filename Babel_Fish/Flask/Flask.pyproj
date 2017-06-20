@@ -29,60 +29,27 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="app\client\interface\teste1\teste.py">
+    <Compile Include="app\client\interface\basic_interface\teste.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="app\__init__.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="run.py" />
-    <Compile Include="Flask\__init__.py" />
-    <Compile Include="Flask\views.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\" />
     <Folder Include="app\client\" />
     <Folder Include="app\client\interface\" />
-    <Folder Include="app\client\interface\teste1\" />
+    <Folder Include="app\client\interface\basic_interface\" />
     <Folder Include="app\client\run\" />
     <Folder Include="app\templates\" />
     <Folder Include="app\static\" />
-    <Folder Include="Flask\" />
-    <Folder Include="Flask\static\" />
-    <Folder Include="Flask\static\content\" />
-    <Folder Include="Flask\static\fonts\" />
-    <Folder Include="Flask\static\scripts\" />
-    <Folder Include="Flask\templates\" />
     <Folder Include="app\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\templates\basic_interface.html" />
     <Content Include="requirements.txt" />
-    <Content Include="Flask\static\content\bootstrap.css" />
-    <Content Include="Flask\static\content\bootstrap.min.css" />
-    <Content Include="Flask\static\content\site.css" />
-    <Content Include="Flask\static\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Flask\static\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Flask\static\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="Flask\static\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="Flask\static\scripts\bootstrap.js" />
-    <Content Include="Flask\static\scripts\bootstrap.min.js" />
-    <Content Include="Flask\static\scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Flask\static\scripts\jquery-1.10.2.js" />
-    <Content Include="Flask\static\scripts\jquery-1.10.2.min.js" />
-    <Content Include="Flask\static\scripts\jquery-1.10.2.min.map" />
-    <Content Include="Flask\static\scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Flask\static\scripts\jquery.validate.js" />
-    <Content Include="Flask\static\scripts\jquery.validate.min.js" />
-    <Content Include="Flask\static\scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Flask\static\scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Flask\static\scripts\modernizr-2.6.2.js" />
-    <Content Include="Flask\static\scripts\respond.js" />
-    <Content Include="Flask\static\scripts\respond.min.js" />
-    <Content Include="Flask\static\scripts\_references.js" />
-    <Content Include="Flask\templates\about.html" />
-    <Content Include="Flask\templates\contact.html" />
-    <Content Include="Flask\templates\index.html" />
-    <Content Include="Flask\templates\layout.html" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="venv\">
