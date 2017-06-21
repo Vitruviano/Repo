@@ -43,11 +43,13 @@
     <Folder Include="app\client\interface\" />
     <Folder Include="app\client\interface\basic_interface\" />
     <Folder Include="app\client\run\" />
+    <Folder Include="app\static\images\" />
     <Folder Include="app\templates\" />
     <Folder Include="app\static\" />
     <Folder Include="app\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\static\images\mainlogo.png" />
     <Content Include="app\templates\basic_interface.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>

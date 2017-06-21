@@ -7,3 +7,5 @@ def basic_interface():
     return render_template('basic_interface.html') # Sem caminho necessário (Templates)
 
 
+
+
