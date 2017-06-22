@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\static\images\mainlogo.png" />
+    <Content Include="app\templates\atualizar_interface.html" />
     <Content Include="app\templates\basic_interface.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
