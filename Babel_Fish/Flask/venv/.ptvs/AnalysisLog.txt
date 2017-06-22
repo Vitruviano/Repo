@@ -9218,3 +9218,27 @@ System.FormatException: Input string was not in a correct format.
 2017-06-20T08:33:22: Deleting 2 files
 2017-06-20T08:33:22: Deleting "C:\Users\deivi\Desktop\Git\Babel_Fish\Flask\venv\.ptvs\_dummy_threading.idb"
 2017-06-20T08:33:22: Deleting "C:\Users\deivi\Desktop\Git\Babel_Fish\Flask\venv\.ptvs\_dummy__threading_local.idb"
+
+2017-06-22T16:43:47: Start analysis
+2017-06-22T16:43:47: IncludeModulesFromModulePath = win32com
+2017-06-22T16:43:49: Deleting 0 files
+2017-06-22T16:43:49: astropy.CallDepth = 0
+2017-06-22T16:43:49: delphixpy.CallDepth = 0
+2017-06-22T16:43:49: matplotlib.CallDepth = 3
+2017-06-22T16:43:49: pandas.CallDepth = 0
+2017-06-22T16:43:49: sympy.CallDepth = 0
+2017-06-22T16:43:49: Start group "c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\flask_script" with 4 files
+2017-06-22T16:43:49: Parsing "flask_script.cli" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\flask_script\cli.py")
+2017-06-22T16:43:49: Parsing "flask_script.commands" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\flask_script\commands.py")
+2017-06-22T16:43:49: Parsing "flask_script._compat" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\flask_script\_compat.py")
+2017-06-22T16:43:49: Parsing "flask_script" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\flask_script\__init__.py")
+2017-06-22T16:43:49: Parsing complete
+2017-06-22T16:43:49: Analyzing "flask_script.cli"
+2017-06-22T16:43:49: Analyzing "flask_script.commands"
+2017-06-22T16:43:49: Analyzing "flask_script._compat"
+2017-06-22T16:43:49: Analyzing "flask_script"
+2017-06-22T16:43:49: Starting analysis of 4 modules
+2017-06-22T16:43:55: Analysis complete
+2017-06-22T16:43:55: Saving group "c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\flask_script"
+2017-06-22T16:43:55: End of group "c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\flask_script"
+2017-06-22T16:43:56: Deleting 0 files
