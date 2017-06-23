@@ -9242,3 +9242,179 @@ System.FormatException: Input string was not in a correct format.
 2017-06-22T16:43:55: Saving group "c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\flask_script"
 2017-06-22T16:43:55: End of group "c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\flask_script"
 2017-06-22T16:43:56: Deleting 0 files
+
+2017-06-23T15:30:24: Start analysis
+2017-06-23T15:30:24: IncludeModulesFromModulePath = win32com
+2017-06-23T15:30:26: Deleting 0 files
+2017-06-23T15:30:26: astropy.CallDepth = 0
+2017-06-23T15:30:26: delphixpy.CallDepth = 0
+2017-06-23T15:30:26: matplotlib.CallDepth = 3
+2017-06-23T15:30:26: pandas.CallDepth = 0
+2017-06-23T15:30:26: sympy.CallDepth = 0
+2017-06-23T15:30:26: Start group "c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\flask_wtf" with 11 files
+2017-06-23T15:30:26: Parsing "flask_wtf.csrf" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\flask_wtf\csrf.py")
+2017-06-23T15:30:26: Parsing "flask_wtf.file" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\flask_wtf\file.py")
+2017-06-23T15:30:26: Parsing "flask_wtf.form" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\flask_wtf\form.py")
+2017-06-23T15:30:26: Parsing "flask_wtf.html5" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\flask_wtf\html5.py")
+2017-06-23T15:30:26: Parsing "flask_wtf.i18n" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\flask_wtf\i18n.py")
+2017-06-23T15:30:26: Parsing "flask_wtf._compat" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\flask_wtf\_compat.py")
+2017-06-23T15:30:26: Parsing "flask_wtf" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\flask_wtf\__init__.py")
+2017-06-23T15:30:26: Parsing "flask_wtf.recaptcha.fields" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\flask_wtf\recaptcha\fields.py")
+2017-06-23T15:30:26: Parsing "flask_wtf.recaptcha.validators" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\flask_wtf\recaptcha\validators.py")
+2017-06-23T15:30:26: Parsing "flask_wtf.recaptcha.widgets" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\flask_wtf\recaptcha\widgets.py")
+2017-06-23T15:30:26: Parsing "flask_wtf.recaptcha" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\flask_wtf\recaptcha\__init__.py")
+2017-06-23T15:30:26: Parsing complete
+2017-06-23T15:30:26: Analyzing "flask_wtf.csrf"
+2017-06-23T15:30:26: Analyzing "flask_wtf.file"
+2017-06-23T15:30:26: Analyzing "flask_wtf.form"
+2017-06-23T15:30:26: Analyzing "flask_wtf.html5"
+2017-06-23T15:30:26: Analyzing "flask_wtf.i18n"
+2017-06-23T15:30:26: Analyzing "flask_wtf._compat"
+2017-06-23T15:30:26: Analyzing "flask_wtf"
+2017-06-23T15:30:26: Analyzing "flask_wtf.recaptcha.fields"
+2017-06-23T15:30:26: Analyzing "flask_wtf.recaptcha.validators"
+2017-06-23T15:30:26: Analyzing "flask_wtf.recaptcha.widgets"
+2017-06-23T15:30:26: Analyzing "flask_wtf.recaptcha"
+2017-06-23T15:30:26: Starting analysis of 11 modules
+2017-06-23T15:30:29: Analysis complete
+2017-06-23T15:30:29: Saving group "c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\flask_wtf"
+2017-06-23T15:30:29: End of group "c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\flask_wtf"
+2017-06-23T15:30:29: Start group "c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms" with 40 files
+2017-06-23T15:30:29: Parsing "wtforms.compat" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\compat.py")
+2017-06-23T15:30:29: Parsing "wtforms.form" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\form.py")
+2017-06-23T15:30:29: Parsing "wtforms.i18n" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\i18n.py")
+2017-06-23T15:30:29: Parsing "wtforms.meta" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\meta.py")
+2017-06-23T15:30:29: Parsing "wtforms.utils" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\utils.py")
+2017-06-23T15:30:29: Parsing "wtforms.validators" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\validators.py")
+2017-06-23T15:30:29: Parsing "wtforms" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\__init__.py")
+2017-06-23T15:30:29: Parsing "wtforms.csrf.core" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\csrf\core.py")
+2017-06-23T15:30:29: Parsing "wtforms.csrf.session" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\csrf\session.py")
+2017-06-23T15:30:29: Parsing "wtforms.csrf" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\csrf\__init__.py")
+2017-06-23T15:30:29: Parsing "wtforms.ext" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\ext\__init__.py")
+2017-06-23T15:30:29: Parsing "wtforms.ext.appengine.db" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\ext\appengine\db.py")
+2017-06-23T15:30:29: Parsing "wtforms.ext.appengine.fields" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\ext\appengine\fields.py")
+2017-06-23T15:30:29: Parsing "wtforms.ext.appengine.ndb" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\ext\appengine\ndb.py")
+2017-06-23T15:30:29: Parsing "wtforms.ext.appengine" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\ext\appengine\__init__.py")
+2017-06-23T15:30:29: Parsing "wtforms.ext.csrf.fields" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\ext\csrf\fields.py")
+2017-06-23T15:30:29: Parsing "wtforms.ext.csrf.form" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\ext\csrf\form.py")
+2017-06-23T15:30:29: Parsing "wtforms.ext.csrf.session" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\ext\csrf\session.py")
+2017-06-23T15:30:29: Parsing "wtforms.ext.csrf" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\ext\csrf\__init__.py")
+2017-06-23T15:30:29: Parsing "wtforms.ext.dateutil.fields" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\ext\dateutil\fields.py")
+2017-06-23T15:30:29: Parsing "wtforms.ext.dateutil" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\ext\dateutil\__init__.py")
+2017-06-23T15:30:29: Parsing "wtforms.ext.django.fields" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\ext\django\fields.py")
+2017-06-23T15:30:29: Parsing "wtforms.ext.django.i18n" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\ext\django\i18n.py")
+2017-06-23T15:30:29: Parsing "wtforms.ext.django.orm" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\ext\django\orm.py")
+2017-06-23T15:30:29: Parsing "wtforms.ext.django" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\ext\django\__init__.py")
+2017-06-23T15:30:29: Parsing "wtforms.ext.django.templatetags.wtforms" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\ext\django\templatetags\wtforms.py")
+2017-06-23T15:30:29: Parsing "wtforms.ext.django.templatetags" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\ext\django\templatetags\__init__.py")
+2017-06-23T15:30:29: Parsing "wtforms.ext.i18n.form" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\ext\i18n\form.py")
+2017-06-23T15:30:29: Parsing "wtforms.ext.i18n.utils" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\ext\i18n\utils.py")
+2017-06-23T15:30:29: Parsing "wtforms.ext.i18n" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\ext\i18n\__init__.py")
+2017-06-23T15:30:29: Parsing "wtforms.ext.sqlalchemy.fields" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\ext\sqlalchemy\fields.py")
+2017-06-23T15:30:29: Parsing "wtforms.ext.sqlalchemy.orm" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\ext\sqlalchemy\orm.py")
+2017-06-23T15:30:29: Parsing "wtforms.ext.sqlalchemy" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\ext\sqlalchemy\__init__.py")
+2017-06-23T15:30:29: Parsing "wtforms.fields.core" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\fields\core.py")
+2017-06-23T15:30:29: Parsing "wtforms.fields.html5" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\fields\html5.py")
+2017-06-23T15:30:29: Parsing "wtforms.fields.simple" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\fields\simple.py")
+2017-06-23T15:30:29: Parsing "wtforms.fields" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\fields\__init__.py")
+2017-06-23T15:30:29: Parsing "wtforms.widgets.core" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\widgets\core.py")
+2017-06-23T15:30:29: Parsing "wtforms.widgets.html5" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\widgets\html5.py")
+2017-06-23T15:30:29: Parsing "wtforms.widgets" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms\widgets\__init__.py")
+2017-06-23T15:30:29: Parsing complete
+2017-06-23T15:30:29: Analyzing "wtforms.compat"
+2017-06-23T15:30:29: Analyzing "wtforms.form"
+2017-06-23T15:30:29: Analyzing "wtforms.i18n"
+2017-06-23T15:30:29: Analyzing "wtforms.meta"
+2017-06-23T15:30:29: Analyzing "wtforms.utils"
+2017-06-23T15:30:29: Analyzing "wtforms.validators"
+2017-06-23T15:30:29: Analyzing "wtforms"
+2017-06-23T15:30:29: Analyzing "wtforms.csrf.core"
+2017-06-23T15:30:29: Analyzing "wtforms.csrf.session"
+2017-06-23T15:30:29: Analyzing "wtforms.csrf"
+2017-06-23T15:30:29: Analyzing "wtforms.ext"
+2017-06-23T15:30:29: Analyzing "wtforms.ext.appengine.db"
+2017-06-23T15:30:29: Analyzing "wtforms.ext.appengine.fields"
+2017-06-23T15:30:29: Analyzing "wtforms.ext.appengine.ndb"
+2017-06-23T15:30:29: Analyzing "wtforms.ext.appengine"
+2017-06-23T15:30:29: Analyzing "wtforms.ext.csrf.fields"
+2017-06-23T15:30:29: Analyzing "wtforms.ext.csrf.form"
+2017-06-23T15:30:29: Analyzing "wtforms.ext.csrf.session"
+2017-06-23T15:30:29: Analyzing "wtforms.ext.csrf"
+2017-06-23T15:30:29: Analyzing "wtforms.ext.dateutil.fields"
+2017-06-23T15:30:29: Analyzing "wtforms.ext.dateutil"
+2017-06-23T15:30:29: Analyzing "wtforms.ext.django.fields"
+2017-06-23T15:30:29: Analyzing "wtforms.ext.django.i18n"
+2017-06-23T15:30:29: Analyzing "wtforms.ext.django.orm"
+2017-06-23T15:30:29: Analyzing "wtforms.ext.django"
+2017-06-23T15:30:29: Analyzing "wtforms.ext.django.templatetags.wtforms"
+2017-06-23T15:30:29: Analyzing "wtforms.ext.django.templatetags"
+2017-06-23T15:30:29: Analyzing "wtforms.ext.i18n.form"
+2017-06-23T15:30:29: Analyzing "wtforms.ext.i18n.utils"
+2017-06-23T15:30:29: Analyzing "wtforms.ext.i18n"
+2017-06-23T15:30:29: Analyzing "wtforms.ext.sqlalchemy.fields"
+2017-06-23T15:30:29: Analyzing "wtforms.ext.sqlalchemy.orm"
+2017-06-23T15:30:29: Analyzing "wtforms.ext.sqlalchemy"
+2017-06-23T15:30:29: Analyzing "wtforms.fields.core"
+2017-06-23T15:30:29: Analyzing "wtforms.fields.html5"
+2017-06-23T15:30:29: Analyzing "wtforms.fields.simple"
+2017-06-23T15:30:29: Analyzing "wtforms.fields"
+2017-06-23T15:30:29: Analyzing "wtforms.widgets.core"
+2017-06-23T15:30:29: Analyzing "wtforms.widgets.html5"
+2017-06-23T15:30:29: Analyzing "wtforms.widgets"
+2017-06-23T15:30:29: Starting analysis of 40 modules
+2017-06-23T15:30:31: Analysis complete
+2017-06-23T15:30:31: Saving group "c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms"
+2017-06-23T15:30:31: [ERROR] wtforms.i18n.messages_path: Unknown has no name
+2017-06-23T15:30:31: [ERROR] wtforms.ext.appengine.fields.KeyPropertyField.KeyPropertyField: Unknown has no name
+2017-06-23T15:30:31: End of group "c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\wtforms"
+2017-06-23T15:30:33: Deleting 0 files
+
+2017-06-23T16:22:07: Start analysis
+2017-06-23T16:22:07: IncludeModulesFromModulePath = win32com
+2017-06-23T16:22:08: Deleting 0 files
+2017-06-23T16:22:08: astropy.CallDepth = 0
+2017-06-23T16:22:08: delphixpy.CallDepth = 0
+2017-06-23T16:22:08: matplotlib.CallDepth = 3
+2017-06-23T16:22:08: pandas.CallDepth = 0
+2017-06-23T16:22:08: sympy.CallDepth = 0
+2017-06-23T16:22:08: Start group "c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\dominate" with 7 files
+2017-06-23T16:22:08: Parsing "dominate.document" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\dominate\document.py")
+2017-06-23T16:22:08: Parsing "dominate.dom1core" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\dominate\dom1core.py")
+2017-06-23T16:22:08: Parsing "dominate.dom_tag" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\dominate\dom_tag.py")
+2017-06-23T16:22:08: Parsing "dominate.tags" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\dominate\tags.py")
+2017-06-23T16:22:08: Parsing "dominate.util" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\dominate\util.py")
+2017-06-23T16:22:08: Parsing "dominate._version" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\dominate\_version.py")
+2017-06-23T16:22:08: Parsing "dominate" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\dominate\__init__.py")
+2017-06-23T16:22:08: Parsing complete
+2017-06-23T16:22:08: Analyzing "dominate.document"
+2017-06-23T16:22:09: Analyzing "dominate.dom1core"
+2017-06-23T16:22:09: Analyzing "dominate.dom_tag"
+2017-06-23T16:22:09: Analyzing "dominate.tags"
+2017-06-23T16:22:09: Analyzing "dominate.util"
+2017-06-23T16:22:09: Analyzing "dominate._version"
+2017-06-23T16:22:09: Analyzing "dominate"
+2017-06-23T16:22:09: Starting analysis of 7 modules
+2017-06-23T16:22:10: Analysis complete
+2017-06-23T16:22:10: Saving group "c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\dominate"
+2017-06-23T16:22:10: End of group "c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\dominate"
+2017-06-23T16:22:10: Start group "c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\flask_bootstrap" with 3 files
+2017-06-23T16:22:10: Parsing "flask_bootstrap.forms" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\flask_bootstrap\forms.py")
+2017-06-23T16:22:10: Parsing "flask_bootstrap.nav" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\flask_bootstrap\nav.py")
+2017-06-23T16:22:10: Parsing "flask_bootstrap" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\flask_bootstrap\__init__.py")
+2017-06-23T16:22:10: Parsing complete
+2017-06-23T16:22:10: Analyzing "flask_bootstrap.forms"
+2017-06-23T16:22:10: Analyzing "flask_bootstrap.nav"
+2017-06-23T16:22:10: Analyzing "flask_bootstrap"
+2017-06-23T16:22:10: Starting analysis of 3 modules
+2017-06-23T16:22:12: Analysis complete
+2017-06-23T16:22:12: Saving group "c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\flask_bootstrap"
+2017-06-23T16:22:12: End of group "c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\flask_bootstrap"
+2017-06-23T16:22:12: Start group "c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\visitor" with 1 files
+2017-06-23T16:22:12: Parsing "visitor" ("c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\visitor\__init__.py")
+2017-06-23T16:22:12: Parsing complete
+2017-06-23T16:22:12: Analyzing "visitor"
+2017-06-23T16:22:12: Starting analysis of 1 modules
+2017-06-23T16:22:12: Analysis complete
+2017-06-23T16:22:12: Saving group "c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\visitor"
+2017-06-23T16:22:13: End of group "c:\users\deivi\desktop\git\babel_fish\flask\venv\lib\site-packages\visitor"
+2017-06-23T16:22:14: Deleting 0 files

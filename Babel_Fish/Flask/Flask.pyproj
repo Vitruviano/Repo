@@ -32,6 +32,9 @@
     <Compile Include="app\client\interface\basic_interface\teste.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="app\config.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="app\__init__.py">
       <SubType>Code</SubType>
     </Compile>
@@ -49,7 +52,7 @@
     <Folder Include="app\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\static\images\mainlogo2.png" />
+    <Content Include="app\static\images\mainlogo.png" />
     <Content Include="app\templates\atualizar_interface.html" />
     <Content Include="app\templates\basic_interface.html" />
     <Content Include="requirements.txt" />
