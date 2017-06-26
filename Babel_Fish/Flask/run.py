@@ -1,12 +1,8 @@
-from flask_script import Manager
-from app import app
+from flask_script import Manager #Biblioteca para gerenciamento do dev server do flask (--host, --debug)
+from app import app 
 
 manager = Manager(app)
-app.secret_key = 'someverycomplexkey'
+app.secret_key = 'E15342GcbaFd' #Chave necessária para uso da biblioteca Flask Forms 
 
-@manager.command
-def hello():
-    print ("hello")
-
-if __name__ == "__main__":
-	manager.run()
+if __name__ == "__main__": #Verificar se o script específico está sendo executado 
+	manager.run() #Executa 
