@@ -21,7 +21,7 @@ def basic_interface():
     global dv, dv2
 
     form = Btnform() #Criação de uma instância da classe
-    if (form.btn.data == True): #Verifica se o botão de POST foi pressionado ou não
+    if (form.btn.data == True): #Verifica se o botão de POST foi pressionado
         teste(form.btn.data) #Chama função fora do request handler
    
     return render_template('basic_interface.html', dv = dv, dv2 = dv2, form = form) #Render de HTML localizado na pasta tramplates + Passagem de vars para HTML
