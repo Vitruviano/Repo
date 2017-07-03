@@ -21,9 +21,6 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-   
-
     <!-- Modal -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
@@ -33,14 +30,13 @@
                     <h4 class="modal-title" id="myModalLabel">Acompanhamento</h4>
                 </div>
                 <div class="modal-body">
-                    
+
                     <div class="table-responsive">
 
-                        <div class="col-lg-6">
+                        <div class="col-md-6">
                             <table class="table table-striped ">
                                 <thead>
-                                    <tr>                                        
-                                    </tr>
+                                    <tr></tr>
                                 </thead>
                                 <tbody>
                                     <tr>
@@ -85,13 +81,12 @@
                                 </tbody>
                             </table>
                         </div>
-                       
 
-                        <div class="col-lg-6">
+
+                        <div class="col-md-6 ">
                             <table class="table table-striped ">
                                 <thead>
-                                    <tr>
-                                    </tr>
+                                    <tr></tr>
                                 </thead>
                                 <tbody>
                                     <tr>
@@ -147,30 +142,54 @@
         </div>
     </div>
 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type=text/javascript>
+			$(function() {
+			  $('a#process_input').bind('click', function() {
+				$.getJSON('/background_process',
+                  function(data) {
+				  $("#result").text(data.result);
+				});
+				return false;
+			  });
+			});
+    </script>
+
+    <script type=text/javascript>
+			$(function() {
+			  $('a#process_input2').bind('click', function() {
+				$.getJSON('/background_process2',
+                  function(data) {
+				  $("#result2").text(data.result2);
+				});
+				return false;
+			  });
+			});
+    </script>
+
+    <script type=text/javascript>
+			$(function() {
+			  $('a#process_input3').bind('click', function() {
+				$.getJSON('/background_process3',
+                  function(data) {
+				  $("#result3").text(data.result3);
+				});
+				return false;
+			  });
+			});
+    </script>
+
 
 </head>
- 
+
+
+
 <body>
-    
+
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Automação Industrial :</a>
-                <a class="navbar-brand">Formadora: {{ dv[16] }}</a>
-
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <a class="navbar-brand" href="http://www.voestalpine.com/group/pt/">
-                        <img style="max-width: 200px; margin-top: -7px" src="{{ url_for('static', filename='images/mainlogo1.png') }}">
-                    </a>
-                </ul>
+                <a class="navbar-brand ">Formadora: {{ dv[16] }}</a>
             </div>
         </div>
     </nav>
@@ -178,48 +197,48 @@
     <div class="container-fluid">
         <div class="row">
 
-            <div class="col-sm-6 col-sm-offset-0 col-md-6 col-md-offset-0 main">
-               
-                <h1 class="page-header">ORDEM EM PRODUÇÃO/SETUP</h1>
+            <div class="col-lg-5">
+
+                <h1 class="page-header">ORDEM EM PRODUÇÃO/SETUP:</h1>
                 <div class="table-responsive">
                     <table class="table table-striped">
                         <thead>
                             <tr>
                                 <th>Características</th>
                                 <th>Valores</th>
-                                                          
+
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td>Ordem de Produção</td>
                                 <td>{{ dv[0] }}</td>
-                                
+
                             </tr>
                             <tr>
                                 <td>Componente</td>
                                 <td>{{ dv[1] }}</td>
-                                
+
                             </tr>
                             <tr>
                                 <td>Descrição Componente</td>
                                 <td>{{ dv[2] }}</td>
-                                
+
                             </tr>
                             <tr>
                                 <td>Compr. Componente</td>
                                 <td>{{ dv[3] }}</td>
-                               
+
                             </tr>
                             <tr>
                                 <td>Lote Componente</td>
                                 <td>{{ dv[4] }}</td>
-                                
+
                             </tr>
                             <tr>
                                 <td>Posição</td>
                                 <td>{{ dv[5] }}</td>
-                               
+
                             </tr>
                             <tr>
                                 <td>OV</td>
@@ -251,37 +270,33 @@
                             </tr>
                             <tr>
                                 <td>Quantidade</td>
-                                <td>{{ dv[13] }}</td>                              
+                                <td>{{ dv[13] }}</td>
                             </tr>
                             <tr>
                                 <td>Número de Peças</td>
-                                <td>{{ dv[14] }}</td>                              
+                                <td>{{ dv[14] }}</td>
                             </tr>
                             <tr>
                                 <td>Número de Amarrados</td>
-                                <td>{{ dv[15] }}</td>                         
+                                <td>{{ dv[15] }}</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
             </div>
 
-            <div class="col-sm-6 col-sm-offset-0 col-md-6 col-md-offset-0 main">
-                <h1 class="page-header">APLICABILIDADES:</h1>
-               
 
-                
+
+            <div class="col-lg-3">
+                <h1 class="page-header">APLICABILIDADES:</h1>
+
+
+
                 <form action="" method="POST">
                     <ul class="nav nav-pills" role="tablist">
                         {{ form.btn(_type="button", class="btn btn-primary", style="margin-top: 5px; margin-bottom: 5px; height: 44px; margin-right: 15px; width: 300px") }}
                     </ul>
-                </form>  
-                
-
-        
-
-
-
+                </form>
 
                 <ul class="nav nav-pills" role="tablist">
                     <a href="/algum_lugar/">
@@ -341,6 +356,62 @@
                     </a>
                 </ul>
 
+
+
+
+
+
+            </div>
+
+
+            <div class="col-md-4">
+                <h1 class="page-header">PRÓXIMOS PEDIDOS:</h1>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Nº Pedido</th>
+                                <th>Ações</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+
+                                <td>
+                                    <p id="result">{{ classe.pedido1 }}</p>
+                                </td>
+                                <td>
+                                    <div>
+                                        <a href="#" id="process_input"><button class="btn btn-primary">Atualizar</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+
+                                <td>
+                                    <p id="result2">{{ classe.pedido2 }}</p>
+                                </td>
+                                <td>
+                                    <div>
+                                        <a href="#" id="process_input2"><button class="btn btn-primary">Atualizar</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+
+                                <td>
+                                    <p id="result3">{{ classe.pedido3 }}</p>
+                                </td>
+                                <td>
+                                    <div>
+                                        <a href="#" id="process_input3"><button class="btn btn-primary">Atualizar</button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
@@ -354,4 +425,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="{{ url_for('static', filename='js/bootstrap.min.js')}}"></script>
 </body>
+
 </html>
+
