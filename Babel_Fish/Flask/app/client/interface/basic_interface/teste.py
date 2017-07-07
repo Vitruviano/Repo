@@ -50,7 +50,7 @@ def basic_interface():
 @app.route('/background_process')
 def background_process():
     global classe
-    classe.pedido1 = 'change1'
+    classe.pedido1 = 'ASDASDAS'
     response = classe.pedido1
     return jsonify(result = response)
     
@@ -59,7 +59,7 @@ def background_process():
 @app.route('/background_process2')
 def background_process2():
     global classe  
-    classe.pedido2 = 'chsange2'
+    classe.pedido2 = 'nge2'
     response = classe.pedido2
     return jsonify(result2 = response)
 
@@ -77,4 +77,4 @@ def teste(var): #Criação da função que será chamada pelo POST do usuário
    
     print(str(var))
     
-classe = Pedidos('123', '456', '789', '001')
+classe = Pedidos('123ASD', '456', '789', '001')

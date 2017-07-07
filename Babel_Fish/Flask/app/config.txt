@@ -1,0 +1,8 @@
+{
+    "run": {
+			"title": "example glossary",
+			"GlossDiv": "asdsadsadsa",
+			"printer_ip": "10.200.6.157"
+		   }
+}
+  

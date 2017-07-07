@@ -1,0 +1,8 @@
+{
+    "printer_address": "10.200.6.157",
+    "network_address": "192.168.25",
+    "tcp_ip": "127.0.0.1",
+    "tcp_port": 5005,
+    "buffer_size": 20,
+    "connection_timeout": 1
+}

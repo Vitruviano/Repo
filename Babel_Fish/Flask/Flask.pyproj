@@ -32,7 +32,7 @@
     <Compile Include="app\client\interface\basic_interface\teste.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="app\config.py">
+    <Compile Include="app\client\run\standard_process\start.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="app\__init__.py">
@@ -45,15 +45,18 @@
     <Folder Include="app\client\" />
     <Folder Include="app\client\interface\" />
     <Folder Include="app\client\interface\basic_interface\" />
+    <Folder Include="app\client\interface\Run\" />
     <Folder Include="app\client\run\" />
+    <Folder Include="app\client\run\standard_process\" />
     <Folder Include="app\static\images\" />
     <Folder Include="app\templates\" />
     <Folder Include="app\static\" />
     <Folder Include="app\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\config.txt" />
+    <Content Include="app\static\config.json" />
     <Content Include="app\static\images\mainlogo.png" />
-    <Content Include="app\templates\atualizar_interface.html" />
     <Content Include="app\templates\basic_interface.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
