@@ -29,6 +29,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="app\client\components\standard_component.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="app\client\interface\basic_interface\teste.py">
       <SubType>Code</SubType>
     </Compile>
@@ -46,6 +49,7 @@
     <Folder Include="app\client\interface\" />
     <Folder Include="app\client\interface\basic_interface\" />
     <Folder Include="app\client\interface\Run\" />
+    <Folder Include="app\client\components\" />
     <Folder Include="app\client\run\" />
     <Folder Include="app\client\run\standard_process\" />
     <Folder Include="app\static\images\" />
