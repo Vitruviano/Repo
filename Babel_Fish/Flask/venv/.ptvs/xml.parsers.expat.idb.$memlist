@@ -9,7 +9,10 @@ version_info
 model
 EXPAT_VERSION
 ExpatError
-ErrorString
 errors
+<<<<<<< HEAD
 expat_CAPI
+=======
+ErrorString
+>>>>>>> adbd653682858cf456de12f90ce293979bcfddf9
 XML_PARAM_ENTITY_PARSING_UNLESS_STANDALONE

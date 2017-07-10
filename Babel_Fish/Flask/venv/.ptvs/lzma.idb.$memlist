@@ -1,8 +1,9 @@
+CHECK_ID_MAX
 FILTER_ARMTHUMB
 FILTER_POWERPC
 io
 open
-TypeError
+ValueError
 _MODE_WRITE
 LZMACompressor
 compress
@@ -13,7 +14,11 @@ FORMAT_AUTO
 MODE_NORMAL
 decompress
 bytes
+<<<<<<< HEAD
 FILTER_SPARC
+=======
+FILTER_LZMA1
+>>>>>>> adbd653682858cf456de12f90ce293979bcfddf9
 property
 CHECK_NONE
 isinstance
@@ -23,26 +28,34 @@ CHECK_CRC32
 _MODE_READ
 is_check_supported
 MF_HC3
+<<<<<<< HEAD
 MF_BT2
+=======
+len
+>>>>>>> adbd653682858cf456de12f90ce293979bcfddf9
 FILTER_DELTA
 FORMAT_ALONE
-CHECK_ID_MAX
+io
 hasattr
-ValueError
 FILTER_LZMA2
+TypeError
 CHECK_UNKNOWN
 FILTER_ARM
 LZMAError
 FILTER_IA64
 MODE_FAST
+<<<<<<< HEAD
 MF_BT4
+=======
+>>>>>>> adbd653682858cf456de12f90ce293979bcfddf9
 FILTER_X86
+MF_BT4
 str
 LZMADecompressor
 _encode_filter_properties
 PRESET_EXTREME
 FORMAT_XZ
-FILTER_LZMA1
+FILTER_SPARC
 os
 builtins
 MF_HC4
@@ -51,4 +64,4 @@ CHECK_SHA256
 CHECK_CRC64
 FORMAT_RAW
 LZMAFile
-len
+MF_BT2

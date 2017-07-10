@@ -4,8 +4,12 @@ SocketType
 getdefaulttimeout
 SOMAXCONN
 timeout
+<<<<<<< HEAD
 IPV6_DONTFRAG
+=======
+>>>>>>> adbd653682858cf456de12f90ce293979bcfddf9
 IPPROTO_UDP
+IPV6_DONTFRAG
 CAPI
 SO_TYPE
 __name__
@@ -26,11 +30,11 @@ IPV6_RECVRTHDR
 errno
 _LOCALHOST
 SOCK_STREAM
-INADDR_BROADCAST
+SHUT_WR
 NI_DGRAM
 EAGAIN
-AI_PASSIVE
-socket
+errorTab
+isinstance
 IP_HDRINCL
 SO_DONTROUTE
 IPV6_V6ONLY
@@ -49,8 +53,13 @@ SO_BROADCAST
 globals
 sys
 INADDR_ALLHOSTS_GROUP
+<<<<<<< HEAD
 SO_RCVLOWAT
 NI_NUMERICSERV
+=======
+NI_NUMERICSERV
+SO_OOBINLINE
+>>>>>>> adbd653682858cf456de12f90ce293979bcfddf9
 SO_EXCLUSIVEADDRUSE
 AI_ALL
 ValueError
@@ -64,7 +73,7 @@ __all__
 SIO_LOOPBACK_FAST_PATH
 AF_IRDA
 IP_MULTICAST_LOOP
-setdefaulttimeout
+create_connection
 INADDR_NONE
 IPPORT_USERRESERVED
 SO_REUSEADDR
@@ -74,14 +83,22 @@ EWOULDBLOCK
 EAI_NODATA
 ntohl
 MSG_BCAST
+<<<<<<< HEAD
 SOL_TCP
+=======
+inet_ntop
+>>>>>>> adbd653682858cf456de12f90ce293979bcfddf9
 EBADF
 IPV6_MULTICAST_LOOP
 RCVALL_ON
 set
 AttributeError
 SO_SNDTIMEO
+<<<<<<< HEAD
 MSG_CTRUNC
+=======
+IntEnum
+>>>>>>> adbd653682858cf456de12f90ce293979bcfddf9
 hasattr
 MSG_DONTROUTE
 RCVALL_SOCKETLEVELONLY
@@ -123,12 +140,12 @@ BlockingIOError
 EAI_SERVICE
 _GLOBAL_DEFAULT_TIMEOUT
 IP_MULTICAST_TTL
-SHUT_WR
+INADDR_BROADCAST
 INADDR_UNSPEC_GROUP
 IPPROTO_ICMP
-errorTab
-isinstance
+AI_PASSIVE
 EAI_BADFLAGS
+socket
 EAI_FAMILY
 IPV6_HOPOPTS
 gethostbyaddr
@@ -143,7 +160,11 @@ INADDR_LOOPBACK
 getfqdn
 TCP_NODELAY
 SOCK_RDM
+<<<<<<< HEAD
 SO_OOBINLINE
+=======
+SO_RCVLOWAT
+>>>>>>> adbd653682858cf456de12f90ce293979bcfddf9
 SO_KEEPALIVE
 htons
 getservbyport
@@ -154,7 +175,7 @@ SHUT_RDWR
 SOCK_RAW
 IP_TOS
 EAI_NONAME
-create_connection
+setdefaulttimeout
 SO_DEBUG
 IP_OPTIONS
 ntohs
@@ -164,7 +185,11 @@ SO_RCVTIMEO
 io
 property
 SO_ERROR
+<<<<<<< HEAD
 inet_ntop
+=======
+SOL_TCP
+>>>>>>> adbd653682858cf456de12f90ce293979bcfddf9
 AI_NUMERICSERV
 IPV6_TCLASS
 getaddrinfo
@@ -176,7 +201,11 @@ NameError
 int
 inet_aton
 gethostbyname_ex
+<<<<<<< HEAD
 IntEnum
+=======
+MSG_CTRUNC
+>>>>>>> adbd653682858cf456de12f90ce293979bcfddf9
 AddressFamily
 AI_ADDRCONFIG
 IPV6_RTHDR
@@ -191,8 +220,8 @@ EAI_FAIL
 object
 SO_RCVBUF
 ImportError
-AI_V4MAPPED
 IPV6_JOIN_GROUP
+AI_V4MAPPED
 SocketKind
 Exception
 gethostbyname

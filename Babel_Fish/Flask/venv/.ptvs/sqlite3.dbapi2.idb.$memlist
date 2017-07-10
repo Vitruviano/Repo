@@ -11,7 +11,7 @@ Timestamp
 SQLITE_PRAGMA
 InterfaceError
 threadsafety
-DataError
+connect
 SQLITE_DROP_INDEX
 DatabaseError
 sqlite_version_info
@@ -21,20 +21,24 @@ SQLITE_UPDATE
 SQLITE_TRANSACTION
 SQLITE_DROP_TEMP_TRIGGER
 SQLITE_DROP_TEMP_VIEW
+version
 len
-OptimizedUnicode
 Statement
 collections
 version_info
 Binary
 OperationalError
 adapt
+<<<<<<< HEAD
 DateFromTicks
+=======
+SQLITE_CREATE_VIEW
+>>>>>>> adbd653682858cf456de12f90ce293979bcfddf9
 SQLITE_DROP_TABLE
 SQLITE_ANALYZE
 SQLITE_CREATE_TRIGGER
 SQLITE_DROP_TEMP_INDEX
-SQLITE_ATTACH
+TimeFromTicks
 enable_shared_cache
 memoryview
 complete_statement
@@ -45,13 +49,13 @@ adapters
 SQLITE_DROP_TEMP_TABLE
 SQLITE_DENY
 SQLITE_DETACH
-connect
+DataError
 time
 Warning
 SQLITE_CREATE_TEMP_TRIGGER
 InternalError
-version
 SQLITE_IGNORE
+OptimizedUnicode
 SQLITE_SELECT
 TimestampFromTicks
 register_adapters_and_converters
@@ -68,7 +72,11 @@ PrepareProtocol
 SQLITE_CREATE_TEMP_TABLE
 SQLITE_INSERT
 Row
+<<<<<<< HEAD
 SQLITE_CREATE_VIEW
+=======
+DateFromTicks
+>>>>>>> adbd653682858cf456de12f90ce293979bcfddf9
 SQLITE_REINDEX
 ProgrammingError
 Error
@@ -77,6 +85,6 @@ int
 SQLITE_OK
 SQLITE_DELETE
 datetime
-TimeFromTicks
+SQLITE_ATTACH
 SQLITE_CREATE_TEMP_VIEW
 register_converter

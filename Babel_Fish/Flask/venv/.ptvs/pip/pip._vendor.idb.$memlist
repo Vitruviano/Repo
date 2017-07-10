@@ -7,7 +7,7 @@ pkg_resources
 os
 ipaddress
 six
-packaging
+distlib
 pyparsing
 WHEEL_DIR
 absolute_import
@@ -19,6 +19,6 @@ appdirs
 cachecontrol
 lockfile
 ordereddict
-distlib
+packaging
 sys
 vendored
