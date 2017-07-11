@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand ">Bem Vindo!</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right"></ul>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4">
+            </div>
+            <div class="col-lg-3">
+                <img scr="{{ url_for('static', filename='img/mainlogo1.png') }}">
+                <form action="" method="POST">
+                    <label for="email">Endereço de Email:</label>
+                    {{form.username(_type="email", class="form-control", id="email")}}
+                </form>
+                <form action="" method="POST">
+                    <label for="pwd">Senha:</label>
+                    {{form.password(_type="password", class="form-control", id="pwd")}}
+                </form>
+                <form action="" method="POST">
+                    {{ form.btn2(_type="submit", class="btn btn-primary", style="margin-top: 5px; margin-bottom: 5px; height: 44px; margin-right: 15px; width: 300px") }}
+                </form>
+                <div class="col-lg-4">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
