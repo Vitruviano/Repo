@@ -29,6 +29,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="app\client\components\helper.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="app\client\components\standard_component.py">
       <SubType>Code</SubType>
     </Compile>

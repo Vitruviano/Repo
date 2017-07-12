@@ -1,10 +1,9 @@
 from flask import Flask
 from app import app
-from app.__init__ import get_parameters
 import socket
 import subprocess
 
-
+from app.client.components.helper import get_parameters
 
 def network_access(parameters):
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
