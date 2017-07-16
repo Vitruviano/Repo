@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+
+
+</head>
+
+
+<body>
+
+
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="http://www.voestalpine.com/Meincol/pt" class="navbar-brand">Voestalpine Meincol</a>
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-main">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="#">Ajuda</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="opcoes">Opções <span class="caret"></span></a>
+                        <ul class="dropdown-menu" aria-labelledby="opcoes">
+                            <li><a href="../default/">Default</a></li>
+                            <li class="divider"></li>
+                            <li><a href="../cerulean/">Cerulean</a></li>
+                            <li><a href="../cosmo/">Cosmo</a></li>
+                            <li><a href="../cyborg/">Cyborg</a></li>
+                            <li><a href="../darkly/">Darkly</a></li>
+                            <li><a href="../flatly/">Flatly</a></li>
+                            <li><a href="../journal/">Journal</a></li>
+                            <li><a href="../lumen/">Lumen</a></li>
+                            <li><a href="../paper/">Paper</a></li>
+                            <li><a href="../readable/">Readable</a></li>
+                            <li><a href="../sandstone/">Sandstone</a></li>
+                            <li><a href="../simplex/">Simplex</a></li>
+                            <li><a href="../slate/">Slate</a></li>
+                            <li><a href="../solar/">Solar</a></li>
+                            <li><a href="../spacelab/">Spacelab</a></li>
+                            <li><a href="../superhero/">Superhero</a></li>
+                            <li><a href="../united/">United</a></li>
+                            <li><a href="../yeti/">Yeti</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#" target="_blank">Action</a></li>
+                    <li><a href="#" target="_blank">Action</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+
+    {% block body %}{% endblock %}
+
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,10 +1,20 @@
 {
-    "printer_address": "10.200.6.157",
-    "network_address": "192.168.25",
-    "tcp_ip": "127.0.0.1",
-    "tcp_port": 5005,
-    "buffer_size": 20,
-    "connection_timeout": 1,
-    "username": "admin",
-    "password": 123
+    "run": {
+        "printer_address": "10.200.6.157",
+        "network_address": "192.168.25",
+        "tcp_ip": "127.0.0.1",
+        "tcp_port": 5005,
+        "buffer_size": 20,
+        "connection_timeout": 1,
+        "teste": "123"
+    },
+    "interface": {
+        "username": "admin",
+        "password": "123",
+        "user": "antonio",
+        "ct": "F05",
+        "material": "TUBO QUAD SAE 100 X 100 X 4,25 CFQ",
+        "order": "12354856134",
+        "description": "TUBO 5/6.8"
+    }
 }

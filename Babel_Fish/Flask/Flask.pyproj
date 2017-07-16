@@ -35,10 +35,16 @@
     <Compile Include="app\client\components\standard_component.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="app\client\interface\basic_interface\teste.py">
+    <Compile Include="app\client\form.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\client\interface\basic_interface\interface.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="app\client\run\standard_process\start.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="app\client\views.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="app\__init__.py">
@@ -51,20 +57,37 @@
     <Folder Include="app\client\" />
     <Folder Include="app\client\interface\" />
     <Folder Include="app\client\interface\basic_interface\" />
-    <Folder Include="app\client\interface\Run\" />
     <Folder Include="app\client\components\" />
     <Folder Include="app\client\run\" />
     <Folder Include="app\client\run\standard_process\" />
+    <Folder Include="app\static\css\" />
+    <Folder Include="app\static\css\backup_bootstrap\" />
+    <Folder Include="app\static\fonts\" />
     <Folder Include="app\static\img\" />
     <Folder Include="app\templates\" />
     <Folder Include="app\static\" />
     <Folder Include="app\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\config.txt" />
     <Content Include="app\static\config.json" />
+    <Content Include="app\static\css\backup_bootstrap\bootstrap-theme.css" />
+    <Content Include="app\static\css\backup_bootstrap\bootstrap-theme.css.map" />
+    <Content Include="app\static\css\backup_bootstrap\bootstrap-theme.min.css" />
+    <Content Include="app\static\css\backup_bootstrap\bootstrap-theme.min.css.map" />
+    <Content Include="app\static\css\backup_bootstrap\bootstrap.css" />
+    <Content Include="app\static\css\backup_bootstrap\bootstrap.css.map" />
+    <Content Include="app\static\css\backup_bootstrap\bootstrap.min.css" />
+    <Content Include="app\static\css\backup_bootstrap\bootstrap.min.css.map" />
+    <Content Include="app\static\css\bootstrap.css" />
+    <Content Include="app\static\css\bootstrap.min.css" />
+    <Content Include="app\static\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="app\static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="app\static\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="app\static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="app\static\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="app\static\img\mainlogo1.png" />
     <Content Include="app\templates\basic_interface.html" />
+    <Content Include="app\templates\header.html" />
     <Content Include="app\templates\login.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
