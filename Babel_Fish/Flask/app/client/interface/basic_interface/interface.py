@@ -16,23 +16,8 @@ from app.client.components.helper import get_parameters
 
 
 #----------------------Classes--------------------------------------------------------------#
-class Pedidos():
-    def __init__(self, pedido1, pedido2, pedido3, pedido4):
-        self.pedido1 = pedido1
-        self.pedido2 = pedido2
-        self.pedido3 = pedido3
-        self.pedido4 = pedido4
 
-    def delete(self, pedido):
-        if (pedido == self.pedido1):
-            print("Pedido1")
-            self.pedido1 = 'Null'
-        if (pedido == self.pedido2):
-            print("Pedido2")
-            self.pedido2 = 'Null'
-        if (pedido == self.pedido3):
-            print("Pedido3")
-            self.pedido3 = 'Null'
+
 #-------------------------------------------------------------------------------------------#
 
 

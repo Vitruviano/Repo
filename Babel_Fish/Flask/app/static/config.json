@@ -14,7 +14,10 @@
         "user": "antonio",
         "ct": "F05",
         "material": "TUBO QUAD SAE 100 X 100 X 4,25 CFQ",
-        "order": "12354856134",
+        "current_order": "01",
+        "next_order_1": "11",
+        "next_order_2": "21",
+        "next_order_3": "31",
         "description": "TUBO 5/6.8"
     }
 }

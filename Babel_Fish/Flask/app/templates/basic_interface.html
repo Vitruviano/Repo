@@ -169,11 +169,14 @@
                     <div class="modal-footer">
                         <div class="row">
                             <div class="col-lg-6">
+                            </div>
+                            <div class="col-lg-3">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
                             </div>
-                            <div class="col-lg-6">
-                                <form action="" method="POST">
-                                    {{ form2.send(_type="button", class="btn btn-default", style="background-color:#0077AB; color:#000000;") }}
+                            <div class="col-lg-3">
+
+                                <form action="" method="POST" style="width:100px;margin-left:1px;margin-right:1px">
+                                    {{ form2.send(_type="form", class="btn btn-default", style="background-color:#0077AB; color:#ffffff;") }}
                                 </form>
                             </div>
                         </div>
@@ -182,55 +185,32 @@
             </div>
         </div>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script type=text/javascript>
-          setInterval(                               //Periodically
-            function()
-            {
-               $.getJSON('/background_process',      // At this URL
-                  {},                                // With no extra parameters
-                  function(data)                     // And when you get a response
-                  {
-                    $("#result").text(data.result);  // Write the results into the
-                                                     // #result element
-                  });
-             },
-            3000);
-        </script>
+
 
         <script type=text/javascript>
-          setInterval(                               //Periodicallyss
+          setInterval(
             function()
             {
-               $.getJSON('/background_process2',      // At this URL
-                  {},                                // With no extra parameters
-                  function(data)                     // And when you get a response
+               $.getJSON('/_background_process',
+                  function(data)
                   {
-                    $("#result2").text(data.result2);  // Write the results into the
-                                                     // #result element
+                    $("#result").text(data.result);
+                    $("#result2").text(data.result2);
+                    $("#result3").text(data.result3);
                   });
+                return false;
              },
-            3000);
+            10000);
         </script>
 
-        <script type=text/javascript>
-			$(function() {
-			  $('a#process_input3').bind('click', function() {
-				$.getJSON('/background_process3',
-                  function(data) {
-				  $("#result3").text(data.result3);
-				});
-				return false;
-			  });
-			});
-        </script>
+
 
 
 
         <div class="container-fluid">
             <div class="row">
 
-                <div class="col-lg-5">
+                <div class="col-lg-6">
 
                     <h1 class="page-header">ORDEM EM PRODUÇÃO/SETUP:</h1>
                     <div class="table-responsive">
@@ -320,7 +300,7 @@
 
 
 
-                <div class="col-lg-4">
+                <div class="col-lg-3">
                     <h1 class="page-header">APLICABILIDADES:</h1>
 
 
@@ -414,33 +394,39 @@
                                 <tr>
 
                                     <td>
-                                        <p id="result">{{ classe.pedido1 }}</p>
+                                        <p id="result">{{ response1}}</p>
                                     </td>
                                     <td>
                                         <div>
-                                            <a href="#" id="process_input"><button class="btn btn-primary">Atualizar</button>
+                                            <a href="#" id="process_input">
+                                                <button class="btn btn-primary">
+                                                    <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
                                         </div>
                                     </td>
                                 </tr>
                                 <tr>
 
                                     <td>
-                                        <p id="result2">{{ classe.pedido2 }}</p>
+                                        <p id="result2">{{ response2 }}</p>
                                     </td>
                                     <td>
                                         <div>
-                                            <a href="#" id="process_input2"><button class="btn btn-primary">Atualizar</button>
+                                            <a href="#" id="process_input">
+                                            <button class="btn btn-primary">
+                                                <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
                                         </div>
                                     </td>
                                 </tr>
                                 <tr>
 
                                     <td>
-                                        <p id="result3">{{ classe.pedido3 }}</p>
+                                        <p id="result3">{{ response3 }}</p>
                                     </td>
                                     <td>
                                         <div>
-                                            <a href="#" id="process_input3"><button class="btn btn-primary">Atualizar</button>
+                                            <a href="#" id="process_input">
+                                            <button class="btn btn-primary">
+                                                <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
                                         </div>
                                     </td>
                                 </tr>

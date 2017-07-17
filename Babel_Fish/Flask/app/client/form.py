@@ -21,6 +21,6 @@ class Basic_interface(FlaskForm):
         
 
 class Manutencao_parada(FlaskForm):
-    select = SelectField('Motivo', choices=[('pm','Desarme da Máquina'), ('pm','Desarme da Máquina'), ('pm','Desarme da Máquina')] )
+    select = SelectField('Motivo', choices=[('',''), ('pm','Desarme da Máquina'), ('pm','Desarme da Máquina'), ('pm','Desarme da Máquina')], default='')
     send = SubmitField('Enviar')
 #-------------------------------------------------------------------------------------------#
